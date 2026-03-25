@@ -1,4 +1,4 @@
 # A disentangled transformer-based transfer learning framework to predict patient drug response from tumor single-cell transcriptomics
 
 # Architecture
-<img src="./image.png" alt="项目截图">
+<img src="./image.png" width="300">
