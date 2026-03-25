@@ -1,15 +1,26 @@
 # Title
 A disentangled transformer-based transfer learning framework to predict patient drug response from tumor single-cell transcriptomics
 
-# Architecture
+## 1 Architecture
 <img src="./image.png">
 
-# Environment
+## 2 Requirements
++ Python 3.11
++ CUDA 12.2
++ PyTorch 2.0
++ Pandas 2.1.4
++ Numpy 1.26.3
++ Scikit-learn 1.3.0
 
-# Basic Usage
+## 3 Basic Usage
 
-## Pre-train encoders
+## 3.1 Pre-train encoders
+```bash
 pretrain_main.py
+```
 
-## Fine-tune encoders for different drug response and testing on sc data
+## 3.2 Fine-tune encoders for different drug response and testing on sc data
+```bash
 drug_ft_main.py
+```
+
