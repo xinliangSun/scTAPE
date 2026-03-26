@@ -7,7 +7,7 @@ A disentangled transformer-based transfer learning framework to predict patient 
 ## 2 Requirements
 + Python 3.11
 + CUDA 12.2
-+ PyTorch 2.0
++ PyTorch 1.12.1
 + Pandas 2.1.4
 + Numpy 1.26.3
 + Scikit-learn 1.3.0
