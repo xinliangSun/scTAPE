@@ -43,12 +43,6 @@ def main(args, update_params_dict, logger):
                                                    logger,
                                                    param_str)
         
-        if args.task == 'cell_line':
-            print("single cell results-->", "AUROC", sc_results['auroc'], "AUPRC")
-            
-        elif args.task == 'patient':
-            print("single cell results-->", "AUROC", sc_results['auroc'], "AUPRC", sc_results['auprc'])
-        
         return sc_results
 
 if __name__ == '__main__':
